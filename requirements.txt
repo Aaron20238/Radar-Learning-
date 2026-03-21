@@ -3,3 +3,7 @@
 
 # 运行测试需要 pytest：
 pytest>=7.0
+
+# 合同审阅助手依赖（可选，仅在需要解析 Word/PDF 时安装）：
+python-docx>=1.1.0   # 解析 .docx 文件
+pypdf>=5.1.0         # 解析 PDF 文件
